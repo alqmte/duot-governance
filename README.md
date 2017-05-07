@@ -14,7 +14,7 @@ Go to http://waffle.io/alqmte/duot-governance, Where you can
   - A report of a system inconsistency or loophole.
     - 
 - Vote for an existing issue by incrementing the last vote label
-  - Example, issue has label titled '5-votes', you want to vote for that issue, then remove "5-vote" tag and add "6-votes" tag.
+  - Example, issue has label titled '+5', you want to vote for that issue, then remove "+5" tag and add "+6" tag.
   - Parameterizing our meta data to issues is our cheating proof technique, because all issue audits are saved, so we can verify each issue by running a script detecting people who changed the issue vote  more than once.
   - The code for this is the first is issue in the system.
   
