@@ -1,23 +1,75 @@
-# duot-governance
-Decentralized Governance Voting System
+### Phase 1: Backlog; Drafting and Analysis
 
 
-This is a decentralized cheating proof governance system.
 
-How it Works?
+- Issues are created in the backlog during the analysis phase.
 
-Go to http://waffle.io/alqmte/duot-governance, Where you can
+#### Actions
+  * Client:
+    - [ ] Create a requirement ticket here, a bug report, question, etc.
+    - [ ] Collaborate with the PM on a budget and priority for new requirements.
+    - [ ] Write Acceptance Criteria
 
-- Create a new Issue with either 
-  - A suggestion of a new rule to add to the system.
-    - Create a detailed suggestion of your request, with supporting evidence about how we should include that rule.
-  - A report of a system inconsistency or loophole.
-    - 
-- Vote for an existing issue by incrementing the last vote label
-  - Example, issue has label titled '+5', you want to vote for that issue, then remove "+5" tag and add "+6" tag.
-  - Parameterizing our meta data to issues is our cheating proof technique, because all issue audits are saved, so we can verify each issue by running a script detecting cheating and spam cases
-  - your most recent change is accepted, if not valid, the system bot user revokes your vote and mdify the tag to its correct value.
+  * Developers & Testers:
+    - [ ] Assign yourself an issue from here not necessarily meaning that you'll work on the task but `If` 
+      - [ ] You are sure you understand the requirements.
+      - [ ] You're willing to take this task from the queue within the set milestone if you're free, if not then
+      - [ ] You think that the budget for the task is convenient, and you vote for the validity of the issue cost.
 
-  - The code for this is the first is issue in the system.
-  
-  Any updates to this gensis document should be done via a ticket request first, and when approved person edits the file.
+#### Guidelines
+ - Client is responsible for verifying that the issue description is clear, and all acceptance criteria is written before moving to the Queue.
+- Developers and Testers are rewarded for verifying 
+
+
+=======================================================
+
+
+### Phase 2: Queue; On Board
+
+- Issues here are sorted out in priority by client, and have developers and testers assigned and ready to work on it once they are available.
+
+#### Actions
+
+ - Developers can  move issues from Queue to In-Progress issues here only once at a time.
+
+#### Guidelines
+
+- No participant can take two tasks from the queue, once participant is free, they can come pop an item from the queue and move it to in-progress.
+
+
+==========================================================
+
+### Phase 3: In-Progress
+
+- Items here are in progress of development,
+
+#### Actions
+* Developers once they are done,
+  - Code is pushed to the developer machine github_username.prohealth.io
+  - Pull request is issued.
+
+#### Guidelines
+
+* Developers should be working on one item at a time.
+
+
+==========================================================
+
+### Phase 4: Staging
+
+- All Items here are supposed to be 
+  [ ] Code is Merged with the latest master code on time of submission.
+  [ ] Deployed to developer machine at developer_github_username.prohealth.io
+  [ ] Passing acceptance criteria written in the issue.
+
+
+#### Actions
+ - Items are moved from here to Prohealth.mobi if branch is accepted.
+- Items move Back into in-progress, and developer is ought to stop working on any other issue until bugs are resolved.
+
+
+#### Guidelines
+- Earlier submitter are reviewed first. meaning that in case someone else claimed the branch before you, you're ought to merge your code to his code after his code is merged.
+- If your branch is accepted, developers are rewarded a successful merge token, and their point rate is increased by a fixed percent (agreed in contract) with each submission.
+  - Their code is merged and deployed to Prohealth.mobi
+- If your branch had an issue, regarding a functionality that is clearly stated in the issue description, with each failed submission your point rate is decreased by the same percent.
